@@ -1,0 +1,99 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+
+/* Frame(Grid) Style */
+
+.row{
+    border: 2px solid blue;
+    position: relative;
+}
+.banner_img{
+    position: relative;
+}
+
+.col_maininfo{
+    border: 2px solid green;
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+    top: 50%;
+    transform: translateY(-50%);
+    /*left: 20%;*/
+}
+.nyom{
+    display:flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+
+
+/* 공백 */
+.blank {
+    border: 2px solid violet;
+}
+
+.col {
+    border: 2px solid yellow;
+    position: relative;
+    margin-inner: 5px;
+
+}
+
+/* -Button Style- */
+
+.btn-dark{
+    position: absolute;
+}
+/* 일시정지 버튼 */
+.bi-pause-circle {
+    font-size: 2rem;
+    position: absolute;
+    left : 1%
+}
+/* 음소거 버튼 */
+.bi-volume-mute{
+    font-size: 2rem;
+    position: absolute;
+}
+/* 예매 버튼 */
+.hwan{
+    width: auto!important;
+    margin-top: 5px!important;
+}
+
+
+
+/* text style */
+
+.movie_name{
+    font-weight: bolder;
+}
+
+.short_info{
+    font-weight: normal;
+    align: left;
+}
+
+.movie_chart{
+    display:inline;
+    font-weight: bold;
+}
+
+.movie_rank{
+    font-weight : bolder;
+    color: #ff0088;
+}
+
+.oneline {
+    border : 2px solid #051b11;
+    display:inline !important;
+}
+
+.card-title{
+    text-align: right;
+}
+.card-text{
+    font-weight: lighter;
+    font-size: small;
+    text-align: right;
+}

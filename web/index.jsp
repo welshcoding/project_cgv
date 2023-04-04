@@ -40,10 +40,9 @@
                         <div>
                             <h1 class="movie_chart" > 무비 차트 </h1>&nbsp;&nbsp;
                             <h1 class="movie_rank" style="display:inline !important;"> TOP 5 </h1>
+                            <h5 class="cpr" style="float:right">  차트 더 보기 </h5>
                         </div>
-                        <div style="display:inline !important;">
-                            <h5 class="cpr" >  차트 더 보기 </h5>
-                        </div>
+
                     </div>
                     <div class="blank">
                         <br>

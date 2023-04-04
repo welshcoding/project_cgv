@@ -1,97 +1,161 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
-
 /* Frame(Grid) Style */
 
-.row{
-    border: 2px solid blue;
-    position: relative;
-}
-.banner_img{
+#banner_button_set{
+    /*border: 2px solid red;*/
+    height: 50px;
     position: relative;
 }
 
-.col_maininfo{
-    border: 2px solid green;
-    position: absolute;
+.row{
+    /*border: 2px solid red;*/
+}
+.c_banner{
+    width: 100%;
+}
+
+.main_banner{
+    /*border: 2px solid blue;*/
+    position: relative;
+}
+
+.banner_set{
+    /*border: 2px solid green !important;*/
+    position: absolute !important;
     font-family: 'Noto Sans KR', sans-serif;
     color: white;
+    padding-left: 5% !important;
     top: 50%;
     transform: translateY(-50%);
-    /*left: 20%;*/
 }
-.nyom{
+
+.cardset{
     display:flex!important;
     justify-content: center!important;
     align-items: center!important;
 }
 
+.r_moviechart{
+    margin :auto !important;
+}
+.card_moviechart{
+    margin : 0 !important;
+    padding: 0 !important
 
-/* 공백 */
-.blank {
-    border: 2px solid violet;
 }
 
-.col {
-    border: 2px solid yellow;
+.card_posterFrame{
+    width: 13rem !important;
+    padding-left : 0 !important;
+    padding-right : 0 !important;
+}
+
+.card_frameset {
+    /*border: 2px solid yellow;*/
     position: relative;
     margin-inner: 5px;
+}
 
+.chart_text {
+    /*border : 2px solid #051b11;*/
+    display:inline !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    margin-top: 60px !important;
+    margin-bottom: 20px !important;
 }
 
 /* -Button Style- */
 
-.btn-dark{
-    position: absolute;
+/* 상세보기 버튼 */
+.detail_b {
+    display:block;
+    position: absolute !important;
+    top: 50%;
+    transform: translate(0, -50%);
+
+    border-color: #D2D6D9 !important;
+    background-color: #D2D6D9 !important;
+    color: black !important;
+    --bs-btn-border-radius: 5rem !important;
+    width: 110px;
 }
+
 /* 일시정지 버튼 */
-.bi-pause-circle {
+.pause {
     font-size: 2rem;
-    position: absolute;
-    left : 1%
+    position: absolute !important;
+    margin-left: 10%;
+    top: 50%;
+    transform: translate(0, -50%);
 }
+
 /* 음소거 버튼 */
-.bi-volume-mute{
+.mute{
     font-size: 2rem;
-    position: absolute;
+    position: absolute !important;
+    margin-left: 13.5%;
+    top: 50%;
+    transform: translate(0, -50%);
 }
+
 /* 예매 버튼 */
-.hwan{
-    width: auto!important;
-    margin-top: 5px!important;
+.ticketing{
+    width: auto !important;
+    margin-top: 5px !important;
+    margin-bottom: 20px!important;
 }
 
-
+/* 차트 더 보기 버튼 */
+.plus_icon{
+    font-size: 1.25rem;
+    float: right;
+    margin-left: 8px !important;
+    margin-top: 2.5px !important;
+    color: #4346FF;
+}
 
 /* text style */
 
-.movie_name{
+/* 카드내부 영화 제목*/
+#movie_name{
     font-weight: bolder;
 }
 
-.short_info{
+/* 카드 내부 예매율*/
+#short_info{
     font-weight: normal;
     align: left;
 }
 
-.movie_chart{
+/* 무비차트 글씨 */
+#movie_chart{
     display:inline;
     font-weight: bold;
 }
 
-.movie_rank{
+/* TOP5 */
+#movie_rank{
     font-weight : bolder;
     color: #ff0088;
 }
 
-.oneline {
-    border : 2px solid #051b11;
-    display:inline !important;
+#more_chart{
+    float: right;
+    margin-top: 24px;
+    margin-bottom: 0;
+    font-weight: bold;
+    position: relative;
+    vertical-align: bottom;
 }
 
+/* 영화 제목 (카드) */
 .card-title{
     text-align: right;
 }
+
+/* 예매율, 골든 */
 .card-text{
     font-weight: lighter;
     font-size: small;
